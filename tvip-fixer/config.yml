@@ -2,15 +2,16 @@ name: "TV IP Fixer"
 version: "1.0.0"
 slug: "tvip_fixer"
 description: "Fixes TV IP in config entries"
+url: "https://github.com/tinkermesomething/ha-tvip-fixer"
 arch:
   - armhf
   - armv7
   - aarch64
   - amd64
   - i386
-image: "tvip-fixer-{arch}"
-startup: application
-boot: auto
+image: "ghcr.io/{github_username}/{repository_name}-{arch}"
+init: false
 map:
   - config:rw
-init: false
+startup: application
+boot: auto
