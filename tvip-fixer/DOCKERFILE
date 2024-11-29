@@ -1,10 +1,8 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-# Install inotify-tools
 RUN apk add --no-cache inotify-tools
 
-# Copy script
 COPY run.sh /
 RUN chmod a+x /run.sh
 
