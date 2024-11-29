@@ -1,0 +1,15 @@
+name: "TV IP Fixer"
+version: "1.0.0"
+slug: "tvip_fixer"
+description: "Fixes TV IP in config entries"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+startup: application
+boot: auto
+init: false
+map:
+  - config:rw
