@@ -15,4 +15,4 @@ RUN chmod a+x /run.sh
 # Define volume
 VOLUME /homeassistant
 
-CMD ["sh", "/run.sh"]
+CMD ["/run.sh"]
