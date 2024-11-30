@@ -1,5 +1,5 @@
 name: "TV IP Fixer"
-version: "1.0.2"
+version: "1.1.0"
 slug: "tvip_fixer"
 description: "Fixes TV IP in config entries"
 url: "https://github.com/tinkermesomething/ha-tvip-fixer"
