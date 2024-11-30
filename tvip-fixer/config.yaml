@@ -12,7 +12,7 @@ arch:
 image: "ghcr.io/tinkermesomething/tvip-fixer-{arch}"
 init: false
 map:
-  - type: homeassistant
+  - type: homeassistant_config
     read_only: false
 startup: application
 boot: auto
